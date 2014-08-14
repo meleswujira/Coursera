@@ -1,0 +1,29 @@
+Create a new repository on the command line
+
+touch README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/meleswujira/RCourse.git
+git push -u origin master
+
+Push an existing repository from the command line
+
+git remote add origin https://github.com/meleswujira/RCourse.git
+git push -u origin master
+
+
+Check out from Github repository update and checkin back to Github.
+
+$ git clone https://github.com/username/Spoon-Knife.git
+# Clones your repository into the current directory in terminal
+$ cd Spoon-Knife
+# Changes the active directory in the prompt to the newly cloned "Spoon-Knife" directory
+$ git remote add upstream https://github.com/octocat/Spoon-Knife.git
+# Assigns the original repository to a remote called "upstream"
+$ git fetch upstream
+$ git add ./-u/-A #(add all new files/updates trucking for files that changed/ do both)
+$ git commit -m "Message" #add messages on updated files
+
+$ git push origin master
+# Pushes commits to your Github repository stored on GitHub
